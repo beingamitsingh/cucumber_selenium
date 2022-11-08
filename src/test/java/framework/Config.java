@@ -1,7 +1,8 @@
 package framework;
 
-import java.io.FileInputStream;
 import java.io.InputStream;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Properties;
 import java.util.Set;
@@ -12,8 +13,8 @@ public class Config {
     private static Properties prop = new Properties();
 
     protected Config()    {
-        String sConfigFilePath = "src\\main\\resources\\config.properties";
-        try (InputStream input = new FileInputStream(sConfigFilePath)) {
+        String sConfigFilePath = "src\\test\\resources\\config.properties";
+        try (InputStream input = Files.newInputStream(Paths.get(sConfigFilePath))) {
 
             prop.load(input);
             Set<Object> keys = prop.keySet();

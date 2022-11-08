@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="465cb1bf-c549-4333-8a57-77cbf59972cb" name="Changes" comment="Initial Commit">
+    <list default="true" id="465cb1bf-c549-4333-8a57-77cbf59972cb" name="Changes" comment="Updated README.md">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/FactoringTest.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/swedbank/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/extent-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/extent-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/objects.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/objects.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/Config.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +61,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HHJ7cKZbVRm4TeZ561WOXUM4Cu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -67,6 +75,11 @@
     "last_opened_file_path": "/Users/amitsingh/Documents/projects/swedbank_test_task/build.gradle"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="swedbank_test_task [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -118,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667936275118</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated README.md">
+      <created>1667936661065</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667936661065</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +154,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Updated README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md" />
   </component>
 </project>
