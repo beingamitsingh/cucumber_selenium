@@ -10,7 +10,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.security.MessageDigest;
@@ -53,7 +52,7 @@ public class Support {
         HashMap<String, ArrayList<String>> objData = new HashMap<>();
         ArrayList<String> objInnerData;
         try {
-            FileInputStream fis=new FileInputStream(new File(Config.getProperty("objectRepository")));
+            FileInputStream fis=new FileInputStream(Config.getProperty("objectRepository"));
             XSSFWorkbook wb= new XSSFWorkbook(fis);
             XSSFSheet sheet=wb.getSheetAt(0);
             for(int i=1; i< sheet.getPhysicalNumberOfRows(); i++)  {

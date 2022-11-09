@@ -13,7 +13,7 @@ public class Config {
     private static Properties prop = new Properties();
 
     protected Config()    {
-        String sConfigFilePath = "src\\test\\resources\\config.properties";
+        String sConfigFilePath = "src/test/resources/config.properties";
         try (InputStream input = Files.newInputStream(Paths.get(sConfigFilePath))) {
 
             prop.load(input);

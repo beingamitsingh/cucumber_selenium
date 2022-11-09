@@ -2,6 +2,7 @@ package framework;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver.Navigation;
 import org.openqa.selenium.WebDriver.Options;
 import org.openqa.selenium.WebDriver.TargetLocator;
@@ -15,6 +16,8 @@ public class Driver {
 
     public static void get(String url) {
         MyRunner.webDriver.get(url);
+        MyRunner.webDriver.manage().window().maximize();
+        wait(1);
     }
 
     public static WebElement getElement(String elementName)   {
@@ -58,7 +61,7 @@ public class Driver {
     public static void wait(int seconds) {
         synchronized (MyRunner.webDriver)   {
             try {
-                MyRunner.webDriver.wait(seconds * 1000);
+                MyRunner.webDriver.wait(seconds * 1000L);
             }
             catch (InterruptedException e)  {
                 e.printStackTrace();
@@ -137,6 +140,11 @@ public class Driver {
         return MyRunner.webDriver.getWindowHandle();
     }
 
+    public static void refresh() {
+        MyRunner.webDriver.navigate().refresh();
+        wait(1);
+    }
+
     public static TargetLocator switchTo() {
         return MyRunner.webDriver.switchTo();
     }
@@ -147,5 +155,11 @@ public class Driver {
 
     public static Options manage() {
         return MyRunner.webDriver.manage();
+    }
+
+    public static void sendKeys(WebElement element, String text) {
+        element.clear();
+        element.sendKeys(text);
+        element.sendKeys(Keys.TAB);
     }
 }

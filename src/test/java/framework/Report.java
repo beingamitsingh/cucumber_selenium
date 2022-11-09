@@ -56,9 +56,9 @@ public class Report {
         try {
             TakesScreenshot ts = (TakesScreenshot) MyRunner.webDriver;
             File finalSource = ts.getScreenshotAs(OutputType.FILE);
-            File finalDestination = new File(MyRunner.sReportPath + "\\failureScreenshots\\" + screenshotName + ".png");
+            File finalDestination = new File(MyRunner.sReportPath + "/failureScreenshots/" + screenshotName + ".png");
             FileUtils.copyFile(finalSource, finalDestination);
-            Reporter.addScreenCaptureFromPath("failureScreenshots\\" + screenshotName + ".png");
+            Reporter.addScreenCaptureFromPath("failureScreenshots/" + screenshotName + ".png");
         }
         catch (IOException e) {
             e.printStackTrace();

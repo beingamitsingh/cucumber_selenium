@@ -24,9 +24,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin = {"com.cucumber.listener.ExtentCucumberFormatter:"},
-        features = "src\\test\\resources\\features",
-        glue={"StepDefinitions"},
+@CucumberOptions(plugin = {"com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:"},
+        features = "src/test/resources/features/FactoringTest.feature",
+        glue={"stepDefinitions"},
         strict = true,
         monochrome = true
 )
@@ -41,12 +41,12 @@ public class MyRunner   {
     @BeforeClass
     public static void setUp()  {
         //Load config variables
-        Config config = new Config();
+        new Config();
 
         //Fetch all objects from repository
         allObjects = Support.getAllObjects();
 
-        //Initialize Webdriver
+        //Initialize WebDriver
         webDriver= Support.setBrowser(Config.getProperty("browser"));
 
         //Set report path
@@ -54,7 +54,7 @@ public class MyRunner   {
 
         //Initialize ExtentReports
         ExtentProperties extentProperties = ExtentProperties.INSTANCE;
-        extentProperties.setReportPath(sReportPath + "\\executionReport.html");
+        extentProperties.setReportPath(sReportPath + "/executionReport.html");
         extentProperties.setProjectName("Swedbank Test Task");
     }
 
@@ -73,7 +73,6 @@ public class MyRunner   {
 
         try {
             Driver.quit();
-
             Reporter.loadXMLConfig(new File(Config.getReportConfigPath()));
             Reporter.setSystemInfo("Tester Name", System.getProperty("user.name"));
             Reporter.setSystemInfo("OS", "Mac OS");
