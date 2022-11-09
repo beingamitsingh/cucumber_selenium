@@ -18,14 +18,15 @@ Please go through this section to find more about the key artifacts used in the 
 
 1. Cucumber feature files have been included at **src\test\resources\features**
 3. Test reports are located at **src\test\reports**
-4. Object repository path = **src\main\resources\objects.xlsx**
-5. Config.properties file path is **\src\main\resources\config.properties**
+4. Object repository path = **src\test\resources\objects.xlsx**
+5. Config.properties file path is **\src\test\resources\config.properties**
 
 ---
 
 ## Steps to execute the project
 STEP 1: Clone the project from Github on local machine.
 STEP 2: Import the solution into IntelliJ as gradle project.
+STEP 3: Since tests are developed in Mac OS, it would be better to change all ooccurences of `/` to `\\`
 STEP 3: Press "Run".
 
 ---
