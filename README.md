@@ -24,9 +24,9 @@ Please go through this section to find more about the key artifacts used in the 
 ---
 
 ## Steps to execute the project
-1. STEP 1: Clone the project from Github on local machine.
+1. STEP 1: Clone the project from GitHub on local machine.
 2. STEP 2: Import the solution into IntelliJ as gradle project.
-3. STEP 3: Since tests are developed in Mac OS, it would be better to change all ooccurences of `/` to `\\`
+3. STEP 3: Since tests are developed in Mac OS, it would be better to change all occurrences of `/` to `\\`
 4. STEP 3: Press "Run".
 
 ---

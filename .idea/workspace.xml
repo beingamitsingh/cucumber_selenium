@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="465cb1bf-c549-4333-8a57-77cbf59972cb" name="Changes" comment="Execution report">
-      <change afterPath="$PROJECT_DIR$/deliverables/Testcases.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="465cb1bf-c549-4333-8a57-77cbf59972cb" name="Changes" comment="Functional testcases">
+      <change afterPath="$PROJECT_DIR$/src/test/reports/ExecutionReport_1668110030805/execution.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,12 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Factoring" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Factoring" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -173,8 +180,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MyRunner" />
         <item itemvalue="Gradle.swedbank_test_task [clean]" />
+        <item itemvalue="Gradle.MyRunner" />
         <item itemvalue="Gradle.swedbank_test_task [jar]" />
         <item itemvalue="Gradle.swedbank_test_task [build]" />
       </list>
@@ -217,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667937006200</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Functional testcases">
+      <created>1668113498822</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668113498823</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,7 +249,8 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Updated README.md" />
     <MESSAGE value="Added feature file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added feature file" />
+    <MESSAGE value="Functional testcases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Functional testcases" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
