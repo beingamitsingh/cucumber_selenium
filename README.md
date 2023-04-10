@@ -1,15 +1,14 @@
 **Description**
-This repository contains automated tests for homework by SWEDBANK.
+This repository contains automated UI tests with selenium, JAVA 8 & BDD.
 
 ---
 
 ## Technology Stack Used
 1. JAVA 8
-2. Cucumber with TestNGCucumberRunner()
-3. build.gradle is present
-4. Extent Report has been used for reporting purposes. It contains a summarized dashboard & test logs.
-5. selenium-java [version= 4.5.0]
-6. Scripts have been tested on Google Chrome [version= 107.0.5304.87]
+2. build.gradle is present
+3. Extent Report has been used for reporting purposes. It contains a summarized dashboard & test logs.
+4. selenium-java [version= 4.5.0]
+5. Scripts have been tested on Google Chrome [version= 107.0.5304.87]
 
 ---
 
